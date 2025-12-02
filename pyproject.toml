@@ -1,0 +1,18 @@
+[project]
+name = "langchain-crashcourse"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "chromadb>=1.3.5",
+    "faiss-cpu>=1.13.0",
+    "ipykernel>=7.1.0",
+    "langchain>=1.0.8",
+    "langchain-community>=0.4.1",
+    "langchain-core>=1.0.7",
+    "pymupdf>=1.26.6",
+    "pypdf>=6.3.0",
+    "scikit-learn>=1.7.2",
+    "sentence-transformers>=5.1.2",
+]
